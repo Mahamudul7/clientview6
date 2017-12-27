@@ -547,7 +547,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 70px;
   height: 70px;
   margin-bottom: 15px;
-  background: #199EB8;
+  background: #e71925;
   color: #fff;
   font-size: 24px;
   text-align: center;
@@ -557,7 +557,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .feature-col h3 {
-  color: #199EB8;
+  color: #e71925;
 }
 
 .feature-col p {
@@ -570,7 +570,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   Call-to-action Styling
   ================================================== */
 .cta {
-  background-color: #199EB8;
+  background-color:#e71925;
   padding: 25px 0;
 }
 
