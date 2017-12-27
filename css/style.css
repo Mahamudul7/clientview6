@@ -97,14 +97,14 @@ a:hover {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  background: #199EB8;
+  background: #e71925;
   color: #fff;
   text-align: center;
   font-size: 24px;
 }
 
 .scrolltop:hover, .scrolltop:active, .scrolltop:focus {
-  color: #fff !important;
+  color: #e71925 !important;
   opacity: .75;
 }
 
@@ -778,7 +778,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .info i {
   font-size: 32px;
-  color: #199EB8;
+  color: #e71925;
   float: left;
 }
 
@@ -788,7 +788,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #sendmessage {
-  color: #199EB8;
+  color: #e71925;
   border: 1px solid #199EB8;
   display: none;
   text-align: center;
@@ -826,7 +826,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #199EB8;
+  background: #e71925;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -843,7 +843,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   Footer Styling
   ================================================== */
 .site-footer {
-  background-color: #111;
+  background-color: #e71925;
   padding: 0;
 }
 
@@ -871,7 +871,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .site-footer .bottom {
-  background-color: #000;
+  background-color: #e71925;
   padding: 20px 0;
 }
 
