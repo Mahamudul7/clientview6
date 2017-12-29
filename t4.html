@@ -49,8 +49,8 @@
   
   <!-- /Hero -->
 
-  <!-- Header -->
-   <header id="header">
+   <!-- Header -->
+     <header id="header">
     <div class="container">
 
       <div id="logo" class="pull-left">
@@ -61,7 +61,13 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li><a href="index.html">About Us</a></li>
+          <li class="menu-has-children"><a href="index.html">About Us</a>
+            <ul>
+              <li><a href="index.html">Who we are</a></li>
+              <li class="menu-has-children"><a href="index.html">What We Do</a>
+			  <li class="menu-has-children"><a href="index.html">Values</a>
+            </ul>
+          </li>
           <li class="menu-has-children"><a href="">Services</a>
             <ul>
               <li><a href="1.html">Advertising</a></li>
@@ -78,15 +84,23 @@
 			  <li class="menu-has-children"><a href="12.html">Wedding Event</a>
             </ul>
           </li>
-          <li><a href="index.html">Memento</a></li>
-          <li><a href="index.html">People</a></li>
+          <li><a href="#portfolio">Memento</a></li>
+          <li class="menu-has-children"><a href="index.html">People</a>
+            <ul>
+              <li><a href="t1.html">Chairman</a></li>
+              <li class="menu-has-children"><a href="t2.html">Managing Director</a>
+			  <li class="menu-has-children"><a href="t3.html">Director 1</a>
+			  <li class="menu-has-children"><a href="t4.html">Director 2</a>
+			  <li class="menu-has-children"><a href="t5.html">Creative Director</a>
+            </ul>
+          </li>
           <li class="menu-has-children"><a href="">Media</a>
             <ul>
               <li><a href="program.html">Program</a></li>
               <li class="menu-has-children"><a href="news.html">News</a>
             </ul>
           </li>
-          <li><a href="index.html">Contact</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
       <!-- #nav-menu-container -->
@@ -96,7 +110,7 @@
       </nav>
     </div>
   </header>
-      <!-- #nav-menu-container -->
+  <!-- #header -->
 
      
   <!-- /Parallax -->
@@ -107,7 +121,7 @@
   <!-- Team -->
 
 
-      <div class="card card-block" style="position:relative;top:100px;left:-500px;">
+      <div class="card card-block" style="position:relative;top:100px;left:100px;">
         <a href="#"><img alt="" class="team-img" src="img/team-4.jpg" height="250px" style="margin-bottom:20px;">
               <div class="card-title-wrap">
                 <span class="card-title" style="color:black;font-size:20px;padding-top:15px;">Md.Abdul Kuddus Fakir(Babu)</span> <br><span class="card-text" style="color:black;font-size:15px;">Director</span>

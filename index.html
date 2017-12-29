@@ -86,7 +86,13 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li><a href="#about">About Us</a></li>
+          <li class="menu-has-children"><a href="#about">About Us</a>
+            <ul>
+              <li><a href="#about">Who we are</a></li>
+              <li class="menu-has-children"><a href="#about">What We Do</a>
+			  <li class="menu-has-children"><a href="#about">Values</a>
+            </ul>
+          </li>
           <li class="menu-has-children"><a href="">Services</a>
             <ul>
               <li><a href="1.html">Advertising</a></li>
@@ -104,11 +110,19 @@
             </ul>
           </li>
           <li><a href="#portfolio">Memento</a></li>
-          <li><a href="#team">People</a></li>
+          <li class="menu-has-children"><a href="#people">People</a>
+            <ul>
+              <li><a href="t1.html">Chairman</a></li>
+              <li class="menu-has-children"><a href="t2.html">Managing Director</a>
+			  <li class="menu-has-children"><a href="t3.html">Director 1</a>
+			  <li class="menu-has-children"><a href="t4.html">Director 2</a>
+			  <li class="menu-has-children"><a href="t5.html">Creative Director</a>
+            </ul>
+          </li>
           <li class="menu-has-children"><a href="">Media</a>
             <ul>
               <li><a href="program.html">Program</a></li>
-              <li class="menu-has-children"><a href="#">News</a>
+              <li class="menu-has-children"><a href="news.html">News</a>
             </ul>
           </li>
           <li><a href="#contact">Contact</a></li>
@@ -619,7 +633,7 @@
       <a href="t1.html"><div class="card card-block">
         <a href="t1.html"><img alt="" class="team-img" src="img/team-1.jpg" height="305px">
               <div class="card-title-wrap">
-                <span class="card-title">Md.Shaidul Islam</span> <span class="card-text">Chairman</span>
+                <span class="card-title" style="font-size:20px;">Md.Shaidul Islam</span> <span class="card-text">Chairman</span>
               </div>
 
               <div class="team-over">
@@ -643,7 +657,7 @@
       <a href="t2.html"><div class="card card-block">
         <a href="t2.html"><img alt="" class="team-img" src="img/team-2.jpg" height="305px">
               <div class="card-title-wrap">
-                <span class="card-title">Sabiha Akhter Tora</span> <span class="card-text">Managing Director</span>
+                <span class="card-title" style="font-size:20px;">Sabiha Akhter Tora</span> <span class="card-text">Managing Director</span>
               </div>
 
               <div class="team-over">
@@ -667,7 +681,7 @@
       <a href="t3.html"><div class="card card-block">
         <a href="t3.html"><img alt="" class="team-img" src="img/team-3.jpg" height="305px">
               <div class="card-title-wrap">
-                <span class="card-title">Md.Golam Mostofa</span> <span class="card-text">Director</span>
+                <span class="card-title" style="font-size:20px;">Md.Golam Mostofa</span> <span class="card-text">Director</span>
               </div>
 
               <div class="team-over">
@@ -688,11 +702,11 @@
     </div>
 </div>
 <div class="row">
-      <div class="col-sm-3" style="padding:0px 0px 0px 60px;margin-left:260px;">
+      <div class="col-sm-3" style="padding:30px 0px 0px 60px;margin-left:260px;">
         <a href="t4.html"><div class="card card-block">
           <a href="t4.html"><img alt="" class="team-img" src="img/team-4.jpg" height="305px">
               <div class="card-title-wrap">
-                <span class="card-title">Md.Abdul Kuddus Fakir(Babu)</span> <span class="card-text">Director</span>
+                <span class="card-title" style="font-size:20px;">Md.Abdul Kuddus Fakir(Babu)</span> <span class="card-text">Director</span>
               </div>
 
               <div class="team-over">
@@ -711,11 +725,11 @@
         </a>
       </div>
     </div>
-      <div class="col-sm-3" style="padding:0px 0px 0px 60px;">
+      <div class="col-sm-3" style="padding:30px 0px 0px 60px;">
         <a href="t5.html"><div class="card card-block">
           <a href="t5.html"><img alt="" class="team-img" src="img/team5.jpg" height="305px">
               <div class="card-title-wrap">
-                <span class="card-title">Salim Mahmud Rafiq</span> <span class="card-text">Creative Director</span>
+                <span class="card-title" style="font-size:20px;">Salim Mahmud Rafiq</span> <span class="card-text">Creative Director</span>
               </div>
 </div>
               <div class="team-over">
@@ -811,7 +825,7 @@
             </p>
             <div class="credits">
              
-              This template is made by <a href="https://www.facebook.com/mahamudulhasan.mhj">MHJ</a>
+              <a href="https://www.facebook.com/mahamudulhasan.mhj">MHJ</a>
             </div>
           </div>
 
@@ -849,6 +863,14 @@
   </footer>
   <a class="scrolltop" href="#" style="background:"#e71925"><span class="fa fa-angle-up" style="background:"#e71925"></span></a>
 <div id="fb-root"></div>
+
+
+
+
+
+
+
+
   <!-- Required JavaScript Libraries -->
 
   <script src="js/canvas.js"></script>

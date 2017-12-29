@@ -114,7 +114,7 @@ a:hover {
 .hero {
   display: table;
   position: relative;
-  background: url(../img/back.jpg) no-repeat center center fixed;
+  background: url(../img/back.gif);
   -webkit-background-size:cover;
   -moz-background-size:cover;
   -o-background-size:cover;
